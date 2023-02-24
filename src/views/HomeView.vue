@@ -27,10 +27,10 @@
     <section class="skills-section">
       <h3>We have what You need</h3>
       <div class="images">
-        <img width="100%" height="auto" loading="lazy" src="../../public/foto.webp" alt="Foto og Video">
-        <img width="100%" height="auto" loading="lazy" src="../../public/marketing.webp" alt="Marketing">
-        <img width="100%" height="auto" loading="lazy" src="../../public/programming.webp" alt="Programmering">
-        <img width="100%" height="auto" loading="lazy" src="../../public/webshop-vertical.webp" alt="Webshop">
+        <img loading="lazy" src="../../public/foto.webp" alt="Foto og Video">
+        <img loading="lazy" src="../../public/marketing.webp" alt="Marketing">
+        <img loading="lazy" src="../../public/programming.webp" alt="Programmering">
+        <img loading="lazy" src="../../public/webshop-vertical.webp" alt="Webshop">
       </div>
       <div class="text-right">
         <p>At Creators, We have the tools to make your wishes come true. Whether you need a new webshop or in need of new photo or video materials. We can do anything and we do it well! <br> <br> We are a broad team with alot of different skills, ready to make your dream come true.</p>
