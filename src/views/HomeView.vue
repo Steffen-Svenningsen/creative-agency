@@ -15,11 +15,11 @@
       </div>
     </section>
     <section class="start-section">
-      <h3 class="title-left bold"><span class="gold">Unlimited</span> <br>possibilities. <br> Join the people.</h3>
+      <h3 class="title-left bold"><span v-motion-pop-visible-once :delay="200" class="gold">Unlimited</span> <br>possibilities. <br> Join the people.</h3>
       <img src="../../public/website.webp" alt="Website">
       <img src="../../public/webshop.webp" alt="Webshop">
       <img src="../../public/meeting.webp" alt="Meeting">
-      <div class="text-right">
+      <div v-motion-slide-visible-once-right :delay="200" class="text-right">
         <p>With 15 years of experience regarding web-design and development We seek to create performance optimized digital solutions that are ready to grow to their full potential.</p>
       </div>
       <a class="cta" href="#">Start Your Journey Today<span class="gold">!</span></a>
