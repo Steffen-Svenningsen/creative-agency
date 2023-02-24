@@ -5,10 +5,10 @@ const mobileNav = ref(false);
 </script>
 
 <template>
-    <button @click="mobileNav = !mobileNav" class="hamburger">
+    <div @click="mobileNav = !mobileNav" class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
-    </button>
+    </div>
     <div v-show="mobileNav" class="mobile-nav">
         <router-link @click="mobileNav = !mobileNav" to="/">Home</router-link>
         <router-link @click="mobileNav = !mobileNav" to="/projects">Projects</router-link>
@@ -42,7 +42,7 @@ const mobileNav = ref(false);
 
         &:last-of-type
             width: 18px
-            align-self: flex-start
+            align-self: flex-end
 
 .mobile-nav
     position: fixed
