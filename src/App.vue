@@ -13,7 +13,11 @@ import HamburgerMenu from "@/components/HamburgerMenu.vue";
     </nav>
     <HamburgerMenu />
   </header>
-  <RouterView />
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
   <footer>
     <div>
       <h3>Address</h3>
@@ -67,6 +71,14 @@ header
       &:hover
         color: $honey-gold
 
+    a.router-link-active
+      color: $honey-gold
+      border-bottom: 2px solid $honey-gold
+
+      &:last-of-type
+        color: $black
+        border-bottom: none 
+
     .contact
       background-color: $honey-gold
       padding: 0.5rem 1rem
@@ -112,6 +124,14 @@ footer
 
         &:hover
          color: $honey-gold
+
+.fade-enter-from,
+.fade-leave-to
+  transform: translateX(-100%)
+
+.fade-enter-active,
+.fade-leave-active
+  transition: 0.5s
 
 @media (max-width: 700px)
   header
