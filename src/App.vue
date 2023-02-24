@@ -104,7 +104,7 @@ footer
     flex-direction: column
     gap: 0.5rem
     min-width: 120px
-    height: 180px
+    height: 200px
 
     h3
       font-size: clamp(28px, 4vw, 48px)
@@ -116,6 +116,7 @@ footer
     span
       font-family: "Roboto", sans-serif
       color: $black
+      font-size: 22px
 
       a
         text-decoration: none
