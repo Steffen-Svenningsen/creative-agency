@@ -24,6 +24,19 @@
       </div>
       <a class="cta" href="#">Start Your Journey Today<span class="gold">!</span></a>
     </section>
+    <section class="skills-section">
+      <h3>We have what You need</h3>
+      <div class="images">
+        <img src="../../public/foto.webp" alt="Foto og Video">
+        <img src="../../public/marketing.webp" alt="Marketing">
+        <img src="../../public/programming.webp" alt="Programmering">
+        <img src="../../public/webshop-vertical.webp" alt="Webshop">
+      </div>
+      <div class="text-right">
+        <p>At Creators, We have the tools to make your wishes come true. Whether you need a new webshop or in need of new photo or video materials. We can do anything and we do it well! <br> <br> We are a broad team with alot of different skills, ready to make your dream come true.</p>
+        <span class="brand">Creators</span>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -133,4 +146,57 @@ main
         left: 50%
         transform: translate(10%,10%)
         border-radius: 100px 0 0 0
+
+  .skills-section
+    background-color: $sand
+    flex-direction: column
+    position: relative
+    height: 100vh
+
+    h3
+      text-align: center
+
+    img
+      position: absolute
+      border-radius: 0 25% 0 0
+      max-width: clamp(80px, 15vw, 320px)
+
+      &:nth-of-type(1)
+        bottom: 0
+        left: 2rem
+
+      &:nth-of-type(2)
+        bottom: 0
+        left: 2rem
+        transform: translate(116%, 50%)
+
+      &:nth-of-type(3)
+        bottom: 0
+        transform: translateY(-110%)
+        left: 2rem
+
+      &:nth-of-type(4)
+        bottom: 0
+        transform: translate(116%, -60%)
+        left: 2rem
+
+    .text-right
+      width: clamp(240px, 35%, 600px)
+      position: absolute
+      right: 20%
+      top: 30%
+      opacity: 0.50
+
+@media (max-width: 700px)
+  .start-section
+    .text-right
+      right: 0.75rem !important
+
+    .cta
+      left: 2rem
+      bottom: 7% !important
+
+  .skills-section
+    .text-right
+      top: 17% !important
 </style>
