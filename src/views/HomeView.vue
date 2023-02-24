@@ -27,10 +27,10 @@
     <section class="skills-section">
       <h3>We have what You need</h3>
       <div class="images">
-        <img src="../../public/foto.webp" alt="Foto og Video">
-        <img src="../../public/marketing.webp" alt="Marketing">
-        <img src="../../public/programming.webp" alt="Programmering">
-        <img src="../../public/webshop-vertical.webp" alt="Webshop">
+        <img width="100%" height="auto" loading="lazy" src="../../public/foto.webp" alt="Foto og Video">
+        <img width="100%" height="auto" loading="lazy" src="../../public/marketing.webp" alt="Marketing">
+        <img width="100%" height="auto" loading="lazy" src="../../public/programming.webp" alt="Programmering">
+        <img width="100%" height="auto" loading="lazy" src="../../public/webshop-vertical.webp" alt="Webshop">
       </div>
       <div class="text-right">
         <p>At Creators, We have the tools to make your wishes come true. Whether you need a new webshop or in need of new photo or video materials. We can do anything and we do it well! <br> <br> We are a broad team with alot of different skills, ready to make your dream come true.</p>
@@ -55,7 +55,7 @@ main
     width: 100%
     height: 100vh
     background-color: $sand
-    background-image: url("../../public/hero-background.png")
+    background-image: url("../../public/hero-background.webp")
     background-size: cover
     align-items: center
     gap: 2rem
